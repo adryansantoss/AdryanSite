@@ -151,7 +151,7 @@
     
     .Itensbuy {
         width: 225px;
-        height: 300px;
+        height: 75px;
         margin: 20px;
         padding: 20px;
         transition: 1s;
@@ -172,7 +172,7 @@
     
     .buy {
         background-color: rgb(53, 53, 53);
-        height: 1000px;
+        height: 350px;
     }
     
     .flex-box {
@@ -184,8 +184,8 @@
     .ButtonsBuy {
         font-size: 18px;
         margin-top: 20px;
-        margin-left: 55px;
-        margin-right: 55px;
+        margin-left: 62px;
+        margin-right: 62px;
         padding: 10px 60px;
         transition: 1s;
         background-color: rgb(82, 183, 136);
@@ -197,7 +197,7 @@
     .Final {
         background-color: rgb(34, 34, 34);
         width: 100%;
-        height: 150px;
+        height: 75px;
     }
     
     @keyframes buttonsAni {
