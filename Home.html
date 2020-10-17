@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 
 <head>
     <meta charset='utf-8'>
@@ -17,8 +16,8 @@
             </div>
             <div class="buttons">
                 <input type="submit" class="Button home" value="Home">
-                <input type="submit" class="Button sobre" value="Sobre">
-                <input type="submit" class="Button works" value="Portfolio">
+                <input onclick="window.open('Sobre.html'); return false;" type="submit" class="Button sobre" value="Sobre">
+                <input onClick="document.getElementById('port').scrollIntoView()" type="submit" class="Button works" value="Portfolio">
             </div>
 
         </div>
@@ -27,8 +26,8 @@
                 <h1 class="Titles title1">Sobre</h1>
                 <h1 class="Titles title2">Portfolio</h1>
             </div>
-            <div class="flex-box texts">
-                <p class="Itens txt1">Meu nome é adryan, tenho 13 anos estudo na escola SESI de Itapeva, comecei a programar com 10 anos, a primeira linguagem de programação que aprendi foi JAVA.... um tempo depois comecei a me interessar por JavaScript</p>
+            <div id="sobre" class="flex-box texts">
+                <p class="Itens txt1">Meu nome é adryan, tenho 13 anos estudo na escola SESI de Itapeva, comecei a programar com 10 anos, a primeira linguagem de programação que aprendi foi JAVA.... um tempo depois comecei a me interessar por JavaScript <a href="Sobre.html">mais...</a></p>
                 <p class="Itens txt2">Para você ver meu portfolio click <a class="Link l1" href="Home.html">aqui</a> lá você poderá ver todos os meus trabalhos!</p>
             </div>
             <div class="separa1"><br></div>
@@ -39,7 +38,7 @@
                     <h1 class="Titles2 avançado">Portfolio</h1>
                 </div>
 
-                <div class="flex-box buyItens">
+                <div id="port" class="flex-box buyItens">
                     <p class="Itensbuy item1">Para ver o meu sistema de login clique <a href="Home.html">aqui</a></p>
                     <p class="Itensbuy item2">Para ver o meu sistema usando JavaScript clique <a href="Home.html">aqui</a></p>
                     <p class="Itensbuy item3">Para ver o meu portfolio completo clique <a href="Home.html">aqui</a></p>
