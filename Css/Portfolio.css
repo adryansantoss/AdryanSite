@@ -58,11 +58,24 @@ body {
 }
 
 .logo {
-    margin-left: 25px;
-    transition: 1s;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    margin-left: 50px;
 }
 
-.logo:hover {
+.logo a {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s;
+    text-decoration: none;
+    color: black;
+}
+
+.logo a:hover {
     transform: scale(1.1, 1.1) translateY(-5px);
 }
 
