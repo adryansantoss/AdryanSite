@@ -11,7 +11,18 @@ body p {
     margin-top: 50px;
 }
 
-.goHome {
+.sobre {
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(153, 153, 153, 0.5);
+}
+
+.sobreTitle {
+    text-align: center;
+}
+
+.Button {
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -22,5 +33,8 @@ body p {
     color: black;
     background-color: transparent;
     font-size: 18px;
+}
+
+.header {
     border-bottom: 2px solid black;
 }
