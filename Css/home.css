@@ -168,6 +168,7 @@
         margin-top: 150px;
     }
     .head {
+        position: absolute;
         width: 100%;
         height: auto;
         padding-bottom: 20px;
